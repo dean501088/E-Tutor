@@ -1,7 +1,7 @@
 #include<iostream>
 #include<climits>
 
-#define MAX 10001
+#define MAX 101
 
 using namespace std;
 
