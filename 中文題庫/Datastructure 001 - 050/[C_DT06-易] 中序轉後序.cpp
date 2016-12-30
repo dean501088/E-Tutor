@@ -3,20 +3,8 @@
 #include <vector>
 #include <sstream>
 #include <stack>
-#include <fstream>
 
 using namespace std;
-
-int get_priority(char c) {
-	if (c == '(')
-		return 3;
-	else if (c == ')')
-		return 0;
-	else if (c == '*' || c == '/')
-		return 2;
-	else
-		return 1;
-}
 
 int main() {
 	// var
