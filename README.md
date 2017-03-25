@@ -81,10 +81,42 @@ http://e-tutor.itsa.org.tw/e-Tutor/
 │   ├── 043
 │   │   ├── 43 - [Problem 1] 時間轉換.cpp
 │   │   └── 43 - [Problem 2] 邊緣偵測.cpp
-│   └── 046
-│       ├── 46 - [Problem 1] 到底有幾隻兔子.cpp
-│       ├── 46 - [Problem 2] 18啦遊戲設計.cpp
-│       └── 46 - [Problem 4] 貧富不均.cpp
+│   ├── 046
+│   │   ├── 46 - [Problem 1] 到底有幾隻兔子.cpp
+│   │   ├── 46 - [Problem 2] 18啦遊戲設計.cpp
+│   │   └── 46 - [Problem 4] 貧富不均.cpp
+│   └── 053
+│       └── 53 - [Problem 1] ISBN驗證
+├── ITSA-Basic
+│   ├── 01 - 矩陣數字顯示.cpp
+│   ├── 022 - 圈圈叉叉.cpp
+│   ├── 02 - 英哩轉公里.cpp
+│   ├── 03 - 判斷座標是否在圓形的範圍內.cpp
+│   ├── 04 - 停車費計算.cpp
+│   ├── 05 - 十進制轉二進制.cpp
+│   ├── 06 - 季節判定.cpp
+│   ├── 07 - 複數運算.cpp
+│   ├── 08 - 質數判別.cpp
+│   ├── 09 - 計算正整數被3整除之數值之總和.cpp
+│   ├── 10 - 輾轉相除法.cpp
+│   ├── 11 - 矩陣反轉.cpp
+│   ├── 12 - 遞迴程式練習.cpp
+│   ├── 14 - 判斷是否為迴文.cpp
+│   ├── 16 - 子字串出現次數.cpp
+│   ├── 19 - 最少派車數.cpp
+│   ├── 20 - 大整數加法.cpp
+│   ├── 21 - 最大值與最小值.cpp
+│   ├── 23 - 找零錢問題.cpp
+│   ├── 25 - 字串之編碼數值總和.cpp
+│   ├── 26 - 各位數和排序.cpp
+│   ├── 27 - 猜數字.cpp
+│   ├── 29 - 身分證驗證器.cpp
+│   ├── 30 - 星座查詢.cpp
+│   ├── 34 - 標準體重計算.cpp
+│   ├── 36 - 平、閏年判定.cpp
+│   ├── 37 - 18啦遊戲設計.cpp
+│   ├── 38 - 計算電費.cpp
+│   └── 40 - ISBN驗證.cpp
 ├── README.md
 ├── 中文題庫
 │   ├── Array 001 - 050
@@ -416,4 +448,6 @@ http://e-tutor.itsa.org.tw/e-Tutor/
     │   └── [RU16-中] Ugly number.cpp
     └── Strings 001 - 050
         └── [ST10-簡] The Hamming Distance Problem.cpp
+
+65 directories, 380 files
 ```
