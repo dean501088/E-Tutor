@@ -12,13 +12,13 @@ int main() {
 		int x; 
 		int y[8];  
 
-		cin >> x  
+		cin >> x;
 
-		if(x > 0)  
-			y[0]=0;  
-		else {  
-			y[0]=1;  
-			x+=128;  
+		if(x > 0) 
+			y[0] = 0;  
+		else {
+			y[0] = 1;  
+			x += 128;  
 		}
 
 		for(int i = 0;i < 7; i++) {  
