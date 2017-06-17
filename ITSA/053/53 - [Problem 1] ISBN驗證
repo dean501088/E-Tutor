@@ -1,0 +1,32 @@
+#include <iostream>
+#include <string>
+#include <vector>
+#include <cstdlib>
+
+using namespace std;
+
+int main() {
+	// input
+	int n;
+	cin >> n;
+
+	while (n--) {
+		// var
+		string temp;
+		vector<int> v;
+
+		for (int i = 0; i < 10; i++) {
+			cin >> temp;
+			v.push_back(isdigit(temp[0]) ? atoi(temp.c_str()) : 10);
+		}
+
+		for (int i = 0; i < 2; i++)
+		for (int j = 1; j < 10; j++) {
+			v[j] += v[j - 1];
+		}
+
+		cout << (v[9] % 11 == 0 ? "YES" : "NO") << endl;
+	}
+
+	return 0;
+}
